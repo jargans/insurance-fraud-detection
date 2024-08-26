@@ -27,3 +27,8 @@ This project is a Flask web application for insurance fraud detection. The app u
    ```bash
    git clone https://github.com/jargans/insurance-fraud-detection.git
    cd insurance-fraud-detection
+![Screenshot 2024-08-26 095935](https://github.com/user-attachments/assets/3e03f15b-41ac-4a93-b67c-5313425a3eb4)
+![Screenshot 2024-08-26 095923](https://github.com/user-attachments/assets/c3cb7adc-201a-43a9-b2ca-f1d37f830403)
+![Screenshot 2024-08-26 105554](https://github.com/user-attachments/assets/3567caff-3866-4387-9fdc-460e8f4a0d00)
+
+
