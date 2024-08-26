@@ -6,9 +6,6 @@ This project is a Flask web application for insurance fraud detection. The app u
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [License](#license)
 
 ## Features
 
