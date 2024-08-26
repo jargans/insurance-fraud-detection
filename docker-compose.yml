@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    image: ifd
+    container_name: insurance_fraud_detection
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+    volumes:
+      - .:/app
+    restart: always
+    command: flask run --host=0.0.0.0
