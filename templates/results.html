@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+  <div class="table-users">
+   <h1 class="header">User Input Result</h1>
+   <div class="form">
+    <form action="/back" method="POST">
+      <h3>The Claimed Insurance is {{prediction}}</h3>
+      <h3>This User is {{elligible}} to claim his insurance</h3>
+      <button class="button button1">Go Back to Data Insertion Page</button>
+    </form> 
+  </div>
+</body>
+</html>
