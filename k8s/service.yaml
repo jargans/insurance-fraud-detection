@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-service
+  namespace: loginapp
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 5000
+  selector:
+    app: flask
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql-service
+  namespace: loginapp
+spec:
+  type: ClusterIP
+  ports:
+  - port: 3306
+  selector:
+    app: mysql
