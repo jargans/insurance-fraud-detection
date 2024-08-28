@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Loginapp
 
 
@@ -93,6 +94,8 @@ For open source projects, say how it is licensed.
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
 =======
+=======
+>>>>>>> origin/main
 # Insurance Fraud Detection
 
 This project is a Flask web application for insurance fraud detection. The app uses a pre-trained machine learning model to predict whether a given insurance claim is fraudulent based on user inputs. 
@@ -128,4 +131,7 @@ This project is a Flask web application for insurance fraud detection. The app u
 ![Screenshot 2024-08-26 105554](https://github.com/user-attachments/assets/3567caff-3866-4387-9fdc-460e8f4a0d00)
 
 
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
