@@ -402,6 +402,6 @@ def result():
 @app.route('/logout', methods=['POST'])
 def logout():
     session.pop('username', None)
-    return redirect(url_for('login'))
+    return render_template('index.html')
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000,debug=True)
